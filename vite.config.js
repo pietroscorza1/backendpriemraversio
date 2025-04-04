@@ -8,8 +8,4 @@ export default defineConfig({
             refresh: true,
         }),
     ],
-    build: {
-        outDir: 'public/build', // Asegura que los archivos vayan a public/build
-        emptyOutDir: true, // Limpia el directorio antes de la build
-    },
 });
