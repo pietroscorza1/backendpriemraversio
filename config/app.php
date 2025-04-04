@@ -94,6 +94,7 @@ return [
     | are secure. You should do this prior to deploying the application.
     |
     */
+    'asset_url' => env('ASSET_URL', null),
 
     'cipher' => 'AES-256-CBC',
 
