@@ -3,7 +3,8 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "postbuild": "php artisan migrate --force && php artisan db:seed --force"
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.7",
